@@ -296,6 +296,7 @@ body {
 
 .filter-list {
   display: flex;
+  column-gap: 8px;
   margin-bottom: 50px;
   justify-content: center;
 }
@@ -312,9 +313,6 @@ body {
   border-radius: 4px;
   min-width: 73px;
   padding: 6px 22px;
-}
-.filter-item:not(:last-child) {
-  margin-right: 8px;
 }
 .filter-btn:focus,
 .filter-btn:hover {
